@@ -1,0 +1,90 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+.header {
+    background-image: url(../images/panda_background_header.png);
+    max-width: 1600px;
+    width: 100%;
+    height: 780px;
+    margin: auto;
+}
+
+.header-container-topline {
+    background-color: black;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-orange-text{
+    color: rgb(255, 115, 0);
+}
+.header-yellow-text{
+    color: yellow;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5em;
+    
+}
+
+.menu-list li{
+    white-space: nowrap;
+    flex-grow: 1;
+    padding-left: 20%;
+    
+    list-style: none;
+}
+
+.menu-right_item{
+    margin: auto;
+    margin-right: 15%;
+}
+
+.header-orange-circle{
+    background-color: rgb(256, 115, 0);
+    margin-top: 12px;
+    width: 465px;
+    height: 465px;
+    border-radius: 50%;
+    margin-left: 50%;
+    
+}
+
+.header-container-text{
+    position: relative;
+    font-size: 110px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    left: 20%;
+    top: 15%;
+    text-align: center;
+    line-height: 75%;
+    
+}
+
+.header-watchonline-button{
+    width: 298px;
+    height: 54px;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    font-size: 80px;
+    font-weight: 500;
+    margin-left: 60%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 40px;
+
+}
