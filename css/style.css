@@ -1,7 +1,7 @@
 *{
     font-family: "Roboto", sans-serif;
 }
-.header {
+.websitetop {
     background-image: url(../images/panda_background_header.png);
     max-width: 1600px;
     width: 100%;
@@ -9,7 +9,7 @@
     margin: auto;
 }
 
-.header-container-topline {
+.topline {
     background-color: black;
     height: 80px;
     color: white;
@@ -17,10 +17,10 @@
     justify-content: space-between;
 }
 
-.header-orange-text{
+.topline__menu-list--orange-text{
     color: rgb(255, 115, 0);
 }
-.header-yellow-text{
+.header-bottomline__circle--yellowtext{
     color: yellow;
 }
 
@@ -28,7 +28,7 @@
     text-decoration: none;
 }
 
-.menu-list {
+.topline__menu-list {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -36,7 +36,7 @@
     
 }
 
-.menu-list li{
+.topline__menu-list li{
     white-space: nowrap;
     flex-grow: 1;
     padding-left: 20%;
@@ -44,12 +44,12 @@
     list-style: none;
 }
 
-.menu-right_item{
+.topline__copyrights{
     margin: auto;
     margin-right: 15%;
 }
 
-.header-orange-circle{
+.header-bottomline__circle{
     background-color: rgb(256, 115, 0);
     margin-top: 12px;
     width: 465px;
@@ -59,10 +59,9 @@
     
 }
 
-.header-container-text{
+.header-bottomline__circle--textbox h1{
     position: relative;
-    font-size: 110px;
-    font-weight: 700;
+    font-size: 100px;
     color: #fff;
     text-transform: uppercase;
     left: 20%;
